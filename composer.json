@@ -1,15 +1,15 @@
 {
-    "name": "mucts/laravel-snowflake",
+    "name": "jlz/laravel-snowflake",
     "description": "雪花算法：分布式环境，生成全局唯一的订单号",
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": "^7.4",
-        "ext-json": "^7.4",
-        "ext-openssl": "^7.4",
-        "ext-gmp": "^7.4",
-        "ext-bcmath": "^7.4",
-        "laravel/framework": "^7.0"
+        "php": "^7.4|^8.0",
+        "ext-json": "^7.4|^8.0",
+        "ext-openssl": "^7.4|^8.0",
+        "ext-gmp": "^7.4|^8.0",
+        "ext-bcmath": "^7.4|^8.0",
+        "laravel/framework": "^7.0|^8.*"
     },
     "keywords": ["snowflake", "laravel-snowflake", "laravel"],
     "require-dev": {
